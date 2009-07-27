@@ -1,0 +1,198 @@
+/* ============================================================================
+ *
+ * DEIME Prismatic
+ * www.deime.net
+ * (c) 2009, Jeremy Pinat. All rights reserved.
+ *
+ * ========================================================================= */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent; border: 0; font-size: 100%; font-weight: normal;
+	margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+
+body {
+	background: #fff;
+	color: #222;
+	font: Normal 1em 'Trebuchet MS', sans-serif;
+	line-height: 1em;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* Links */
+a { color: #0c9; font-weight: bold; text-decoration: none; }
+a:hover { color: #fff; }
+
+/* Headings */
+h1 { color: #000000; font-size: 3.0em; letter-spacing: -.05em; }
+h2 { color: #262626; font-size: 1.8em; }
+h3 { color: #4C4C4C; font-size: 1.3em; }
+h4 { color: #737373; font-size: 1.1em; }
+h5 { color: #999999; font-size: 1.0em; }
+h6 { color: #BFBFBF; font-size: 0.9em; letter-spacing: .1em; }
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+/* Paragraphs, Breaks, Separations */
+p, q, li { line-height: 1.4em; }
+hr {
+	border-width: 0;
+	border-bottom: .18em dashed #0cf;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+/* Inline Typography */
+i, em { font-style: italic; }
+b, strong { font-weight: bold; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* Quotes */
+blockquote, q { quotes: none; }
+q { border-left: .5em solid #ffc; padding-left: 1em; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+
+/* Lists */
+ol, ul { list-style: disc; margin-left: 1.5em; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* Code */
+pre {
+	overflow: scroll;
+}
+
+/* Cross-Tag Rules */
+p, ul, ol, dl, q {
+	margin-bottom: .8em;
+}
+
+
+/* Objects
+ * ========================================================================= */
+
+
+/* Wrapper
+ * ------- */
+.Wrapper { margin: 0 auto; padding: 0 5px; width: 950px; }
+.wrapper_first { margin-top: 1em; }
+.wrapper_inner { margin: 0; padding: 0 10px; }
+
+/* Extentions */
+.fluid { padding: 0 2%; width: 96%; }
+
+
+/* Rounder
+ * ------- */
+.Rounded { height: 1px; margin: 0 1px; }
+.rounder { margin: 0 2px; }
+
+
+/* Block
+ * ----- */
+.Block { margin: 0 auto 1em; overflow: hidden; }
+.Block:after { clear: both; content: "."; display: block;
+	height: 0; visibility: hidden; }
+
+/* Extentions */
+.narrowed { padding: 0 40px; }
+.cramped { padding: 0 80px; }
+
+
+/* Unit
+ * ---- */
+.Unit { float: left; }
+.UnitAlt { float: right; }
+
+/* Extentions */
+.w1of2 { width: 48.5%; margin-right: 3%; }
+.w1of3 { width: 30%; margin-right: 5%; }
+.w2of3 { width: 65%; margin-right: 5%; }
+.w1of5 { width: 16%; margin-right: 5%; }
+.w2of5 { width: 37%; margin-right: 5%; }
+.w3of5 { width: 58%; margin-right: 5%; }
+.w4of5 { width: 79%; margin-right: 5%; }
+.last { float: none; margin-left: 0; margin-right: 0;
+	overflow: hidden; width: auto; }
+.Unit.wfree { margin-right: 5%; }
+.UnitAlt.wfree { margin-left: 5%; }
+
+
+/* WideBoard
+ * --------- */
+.wideboard { padding: 1em 0 1.5em; }
+
+/* Button
+ * ------ */
+.Button { background: transparent url('button.png') 0 0px no-repeat; cursor: pointer;
+	display: inline-block; color: #111; font-weight: normal; height: 23px;
+	margin-bottom: -1px; margin-right: 10px; text-decoration: none; }
+.Button:hover { background-color: transparent; color: #111; margin: 0; margin-bottom: -1px;
+	margin-right: 10px; padding: 0; }
+.Button span {
+	background: transparent url('button.png') 100% -23px no-repeat; display: inline-block;
+	font-weight: bold; height: 23px; margin-bottom: -1px;
+	margin-left: 10px; margin-right: -10px; padding-right: 10px; }
+
+/* Bubble
+ * ------ */
+.Speech {
+	background-color: #ffc; border: 1px solid #e9e900;
+	border-left-width: 0; border-right-width: 0;
+	margin: 0 1px; overflow: visible; position: relative; }
+.speech_arrow_tl { background-image: url('arrow_up.png'); height: 8px; left: 40px;
+	margin-top: -8px; position: absolute; width: 16px; }
+.speech_content {
+	border: 1px solid #e9e900; border-bottom-width: 0;
+	border-top-width: 0; margin: 0 -1px; padding: .2em .5em; }
+
+/* Img
+* ------ */
+a.Img:hover { background-color: transparent; color: transparent;
+	margin: 0em; padding: 0em; }
+
+
+/* Generic Classes
+* ========================================================================= */
+
+.center { text-align: center; }
+.right { text-align: right; }
+
+.nobottom { margin-bottom: 0; }
+.overflowing { overflow: visible; }
+
+.clear { clear: both; }
+.clearfix:after { content: "."; display: block; height: 0;
+	clear: both; visibility: hidden; }
+
+.hidden { display: none; }
+
+
+/* Inline Styles */
+.highlight { background-color: #ffc; }
+.legal_writing { font-size: .7em; line-height: 1.1em; }
+
+
+/* Skins */
+.theme_dark { background-color: #111;
+	border-bottom: 2px solid #99997F;
+	color: #eed; }
+.theme_dark h1 { color: #99997F; }
+.theme_dark h2 { color: #85856F; }
+.theme_dark h3 { color: #70705E; }
+.theme_dark h4 { color: #5C5C4D; }
+.theme_dark h5 { color: #47473D; }
+.theme_dark h6 { color: #33332D; }
+.theme_dark hr { border-color: #99997F; }
+
+.theme_neutral { background-color: #f7f7f7; }
+.theme_neutral, .theme_neutral .speech_content { border-color: #ddd; }
