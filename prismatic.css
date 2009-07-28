@@ -85,7 +85,7 @@ p, ul, ol, dl, q {
  * ------- */
 .Wrapper { margin: 0 auto; padding: 0 5px; width: 950px; }
 .wrapper_first { margin-top: 1em; }
-.wrapper_inner { margin: 0; padding: 0 10px; }
+.wrapper_inner { margin: 0; padding: 0 10px; width: auto; }
 
 /* Extentions */
 .fluid { padding: 0 2%; width: 96%; }
