@@ -100,8 +100,6 @@ p, ul, ol, dl, q {
 /* Block
  * ----- */
 .Block { margin: 0 auto 1em; overflow: hidden; }
-.Block:after { clear: both; content: "."; display: block;
-	height: 0; visibility: hidden; }
 
 /* Extentions */
 .narrowed { padding: 0 40px; }
@@ -171,8 +169,8 @@ a.Img:hover { background-color: transparent; color: transparent;
 .overflowing { overflow: visible; }
 
 .clear { clear: both; }
-.clearfix:after { content: "."; display: block; height: 0;
-	clear: both; visibility: hidden; }
+.Board:after, .Block:after, .clearfix:after { clear: both; content: "."; display: block;
+	height: 0; visibility: hidden; }
 
 .hidden { display: none; }
 
