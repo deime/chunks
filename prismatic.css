@@ -81,6 +81,11 @@ p, ul, ol, dl, q {
  * ========================================================================= */
 
 
+/* WideBoard
+ * --------- */
+.wideboard { padding: 1em 0 1.5em; }
+
+
 /* Wrapper
  * ------- */
 .Wrapper { margin: 0 auto; padding: 0 5px; width: 950px; }
@@ -89,12 +94,6 @@ p, ul, ol, dl, q {
 
 /* Extentions */
 .fluid { padding: 0 2%; width: 96%; }
-
-
-/* Rounder
- * ------- */
-.Rounded { height: 1px; margin: 0 1px; }
-.rounder { margin: 0 2px; }
 
 
 /* Block
@@ -125,9 +124,13 @@ p, ul, ol, dl, q {
 .UnitAlt.wfree { margin-left: 5%; }
 
 
-/* WideBoard
- * --------- */
-.wideboard { padding: 1em 0 1.5em; }
+
+
+/* Rounder
+ * ------- */
+.Rounded { height: 1px; margin: 0 1px; }
+.rounder { margin: 0 2px; }
+
 
 /* Button
  * ------ */
