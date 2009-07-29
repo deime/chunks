@@ -1,21 +1,17 @@
-/* ============================================================================
- *
- * DEIME Prismatic
- * http://www.deime.net/prismatic
- * (c) 2009, Jeremy Pinat. All rights reserved.
- *
- * ========================================================================= */
+/*
+DEIME Prismatic
+http://www.deime.net/prismatic
+(c) 2009, Jeremy Pinat. All rights reserved.
+*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
-caption, tbody, tfoot, thead, tr, th, td {
-	background: transparent; border: 0; font-size: 100%; font-weight: normal;
-	margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
-body { background: #fff; color: #222;
-	font: Normal 1em 'Trebuchet MS', sans-serif; line-height: 1em; }
-/* remember to define focus styles! */
+caption, tbody, tfoot, thead, tr, th, td{background:transparent;border:0;font-size:100%;
+font-weight:normal;margin:0;outline:0;padding:0;vertical-align:baseline;}
+
+body{background:#fff;color:#222;font:Normal 1em 'Trebuchet MS', sans-serif;line-height:1em;}
 /*:focus { outline: 0; }*/
 /* Links */
 a { color: #0c9; font-weight: bold; text-decoration: none; }
@@ -52,56 +48,43 @@ pre { overflow: scroll; }
 p, ul, ol, dl, q { margin-bottom: .8em; }
 
 
-/* Objects
- * ========================================================================= */
+/* LAYOUT SYSTEM */
 
+/* Area */
+.Area{_zoom: 1;}
+.Area:after{clear:both;content:".";display:block;height: 0;visibility:hidden;}
 
-/* Area
- * ---- */
-.Area { _zoom: 1; }
-.Area:after { clear: both; content: "."; display: block;
-	height: 0; visibility: hidden; }
-
-
-/* Wrapper
- * ------- */
-.Wrapper { margin: 0 auto; padding: 0 5px; width: 950px; }
-.fluid { padding: 0 2%; width: 96%; }
+/* Wrapper */
+.Wrapper{margin:0 auto;padding:0 5px;width:950px;}
+.fluid{padding:0 2%;width:96%;}
 	/* Those two lines need to be edited and moved: */
 	.wrapper_first { margin-top: 1em; }
 	.wrapper_inner { margin: 0; padding: 0 10px; width: auto; }
 
-
-/* Block
- * ----- */
-.Block { margin: 0 auto 1em; overflow: auto; _overflow: visible; _zoom: 1; }
-.Block:after { clear: both; content: "."; display: block;
-	height: 0; visibility: hidden; }
+/* Block */
+.Block{margin:0 auto 1em;overflow:auto;_overflow:visible;_zoom:1;}
+.Block:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
 /* Extentions (probably have to be moved) */
-.narrowed { padding: 0 40px; }
-.cramped { padding: 0 80px; }
+.narrowed{padding:0 40px;}
+.cramped{padding:0 80px;}
+
+/* Divide */
+.Divide{float:left;overflow:auto;_overflow:visible;_zoom:1;}
+.by2{width:48.5%;margin-right:3%;}
+.by3{width:30%;margin-right:5%;}
+.by3x2{width:65%;margin-right:5%;}
+.by5{width:16%;margin-right:5%;}
+.by5x2{width:37%;margin-right:5%;}
+.by5x3{width:58%;margin-right:5%;}
+.by5x4{width:79%;margin-right:5%;}
+.return{float:none;_left:-3px;margin-left:0;margin-right:0;_margin-right:-3px;
+overflow:hidden;_position:relative;width:auto;_zoom:1;}
+.then_blow{float:right;}
+.Divide.alone{margin-right:5%;}/*lacks margin-bottom*/
+.Divide.then_blow.alone{margin-left:5%;}/*lacks margin-bottom*/
 
 
-/* Divide
- * ---- */
-.Divide { float: left; overflow: auto; _overflow: visible; _zoom: 1; }
-
-/* Extentions */
-.by2 { width: 48.5%; margin-right: 3%; }
-.by3 { width: 30%; margin-right: 5%; }
-.by3x2 { width: 65%; margin-right: 5%; }
-.by5 { width: 16%; margin-right: 5%; }
-.by5x2 { width: 37%; margin-right: 5%; }
-.by5x3 { width: 58%; margin-right: 5%; }
-.by5x4 { width: 79%; margin-right: 5%; }
-.last { float: none; _left: -3px; margin-left: 0; margin-right: 0; _margin-right: -3px;
-	overflow: hidden; _position: relative; width: auto; _zoom: 1; }
-.then_blow { float: right; }
-.Divide.alone { margin-right: 5%; } /* lacks margin-bottom */
-.Divide.then_blow.alone { margin-left: 5%; } /* lacks margin-bottom */
-
-
-
+/* OBJECTS */
 
 /* Rounder
  * ------- */
