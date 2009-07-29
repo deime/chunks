@@ -4,35 +4,35 @@ http://www.deime.net/prismatic
 (c) 2009, Jeremy Pinat. All rights reserved.
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
-font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
-caption, tbody, tfoot, thead, tr, th, td{background:transparent;border:0;font-size:100%;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
+font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,
+u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;
 font-weight:normal;margin:0;outline:0;padding:0;vertical-align:baseline;}
 
-body{background:#fff;color:#222;font:Normal 1em 'Trebuchet MS', sans-serif;line-height:1em;}
+body{background:#fff;color:#222;font:Normal 1em Helvetica,Arial,sans-serif;line-height:1em;}
 /*:focus { outline: 0; }*/
 /* Links */
-a { color: #0c9; font-weight: bold; text-decoration: none; }
-a:hover { color: #fff; }
+a{color:#0c9;font-weight:bold;text-decoration:none;}
+a:hover{color:#000;}
 /* Headings */
-h1 { color: #000000; font-size: 3.0em; letter-spacing: -.05em; }
-h2 { color: #262626; font-size: 1.8em; }
-h3 { color: #4C4C4C; font-size: 1.3em; }
-h4 { color: #737373; font-size: 1.1em; }
-h5 { color: #999999; font-size: 1.0em; }
-h6 { color: #BFBFBF; font-size: 0.9em; letter-spacing: .1em; }
-h1, h2, h3, h4, h5, h6 { font-weight: bold; line-height: 1em; margin-bottom: 0.5em; }
+h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}
+h2{color:#262626;font-size:1.8em;}
+h3{color:#4C4C4C;font-size:1.3em;}
+h4{color:#737373;font-size:1.1em;}
+h5{color:#999;font-size:1.0em;}
+h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
 /* Paragraphs, Breaks, Separations */
-p, q, li { line-height: 1.4em; }
-hr { border-width: 0; border-bottom: .18em dashed #0cf; margin-top: 2em; margin-bottom: 1em; }
+p,q,li{line-height:1.4em;}
+hr{border-width:0;border-bottom:.18em dashed #0cf;margin-top:2em;margin-bottom:1em;}
 /* Inline Typography */
-i, em { font-style: italic; }
-b, strong { font-weight: bold; }
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
 /* remember to highlight inserts somehow! */
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
 /* Quotes */
 blockquote, q { quotes: none; }
 q { border-left: .5em solid #ffc; padding-left: 1em; }
@@ -50,9 +50,10 @@ p, ul, ol, dl, q { margin-bottom: .8em; }
 
 /* LAYOUT SYSTEM */
 
-/* Area */
-.Area{_zoom: 1;}
-.Area:after{clear:both;content:".";display:block;height: 0;visibility:hidden;}
+/* Area and global layout rules */
+.Area,.Wrapper,.Block,.clearfix{_zoom:1;}
+.Area:after,.Wrapper:after,.Block:after,.clearfix:after{
+clear:both;content:".";display:block;height:0;visibility:hidden;}
 
 /* Wrapper */
 .Wrapper{margin:0 auto;padding:0 5px;width:950px;}
@@ -62,8 +63,7 @@ p, ul, ol, dl, q { margin-bottom: .8em; }
 	.wrapper_inner { margin: 0; padding: 0 10px; width: auto; }
 
 /* Block */
-.Block{margin:0 auto 1em;overflow:visible;_zoom:1;}
-.Block:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.Block{margin:0 auto 1em;overflow:visible;}
 /* Extentions (probably have to be moved) */
 .narrowed{padding:0 40px;}
 .cramped{padding:0 80px;}
@@ -84,6 +84,7 @@ overflow:visible;_position:relative;width:auto;_zoom:1;}
 .Divide.then_blow.alone{margin-left:5%;}/*lacks margin-bottom*/
 
 
+
 /* OBJECTS */
 
 /* Rounder
@@ -96,7 +97,7 @@ overflow:visible;_position:relative;width:auto;_zoom:1;}
  * ------ */
 .Button { background: transparent url('images/button.png') 0 0px no-repeat; cursor: pointer;
 	display: inline-block; color: #111; font-weight: normal; height: 23px;
-	margin-bottom: -1px; margin-right: 10px; text-decoration: none; }
+	margin-bottom: -1px; margin-right: 10px; text-decoration: none; .Button { _zoom: 1; } }
 .Button:hover { background-color: transparent; color: #111; margin: 0; margin-bottom: -1px;
 	margin-right: 10px; padding: 0; }
 .Button span {
@@ -116,29 +117,15 @@ overflow:visible;_position:relative;width:auto;_zoom:1;}
 	border: 1px solid #e9e900; border-bottom-width: 0;
 	border-top-width: 0; margin: 0 -1px; padding: .2em .5em; }
 
-/* Img
-* ------ */
-a.Img:hover { background-color: transparent; color: transparent;
-	margin: 0em; padding: 0em; }
 
+/* GENERIC RULES */
 
-/* Generic Classes
-* ========================================================================= */
+.center{text-align:center;}
+.hidden{display:none;}
+.nobottom{margin-bottom:0;}
+.right{text-align:right;}
 
-.center { text-align: center; }
-.right { text-align: right; }
-
-.nobottom { margin-bottom: 0; }
-.overflowing { overflow: visible; }
-
-.clear { clear: both; }
-
-.clearfix, .Button { _zoom: 1; }
-.clearfix:after { clear: both; content: "."; display: block;
-	height: 0; visibility: hidden; }
-
-.hidden { display: none; }
-
+.overflowing { overflow: visible; } /*Maybe good for deletion*/
 
 /* Inline Styles */
 .highlight { background-color: #ffc; }
