@@ -119,8 +119,8 @@ p, ul, ol, dl, q {
 .w2of5 { width: 37%; margin-right: 5%; }
 .w3of5 { width: 58%; margin-right: 5%; }
 .w4of5 { width: 79%; margin-right: 5%; }
-.last { float: none; margin-left: 0; margin-right: 0;
-	overflow: hidden; width: auto; }
+.last { float: none; _left: -3px; margin-left: 0; margin-right: 0; _margin-right: -3px;
+	overflow: hidden; _position: relative; width: auto; }
 .Unit.wfree { margin-right: 5%; }
 .UnitAlt.wfree { margin-left: 5%; }
 
@@ -169,6 +169,7 @@ a.Img:hover { background-color: transparent; color: transparent;
 .overflowing { overflow: visible; }
 
 .clear { clear: both; }
+.clearfix, .Block, .last, .Button { _zoom: 1; }
 .Board:after, .Block:after, .clearfix:after { clear: both; content: "."; display: block;
 	height: 0; visibility: hidden; }
 
