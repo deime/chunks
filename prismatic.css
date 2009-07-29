@@ -1,7 +1,7 @@
 /* ============================================================================
  *
  * DEIME Prismatic
- * www.deime.net
+ * http://www.deime.net/prismatic
  * (c) 2009, Jeremy Pinat. All rights reserved.
  *
  * ========================================================================= */
@@ -13,20 +13,13 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
 caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent; border: 0; font-size: 100%; font-weight: normal;
 	margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
-
-body {
-	background: #fff;
-	color: #222;
-	font: Normal 1em 'Trebuchet MS', sans-serif;
-	line-height: 1em;
-}
+body { background: #fff; color: #222;
+	font: Normal 1em 'Trebuchet MS', sans-serif; line-height: 1em; }
 /* remember to define focus styles! */
-:focus { outline: 0; }
-
+/*:focus { outline: 0; }*/
 /* Links */
 a { color: #0c9; font-weight: bold; text-decoration: none; }
 a:hover { color: #fff; }
-
 /* Headings */
 h1 { color: #000000; font-size: 3.0em; letter-spacing: -.05em; }
 h2 { color: #262626; font-size: 1.8em; }
@@ -34,47 +27,29 @@ h3 { color: #4C4C4C; font-size: 1.3em; }
 h4 { color: #737373; font-size: 1.1em; }
 h5 { color: #999999; font-size: 1.0em; }
 h6 { color: #BFBFBF; font-size: 0.9em; letter-spacing: .1em; }
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-	line-height: 1em;
-	margin-bottom: 0.5em;
-}
+h1, h2, h3, h4, h5, h6 { font-weight: bold; line-height: 1em; margin-bottom: 0.5em; }
 /* Paragraphs, Breaks, Separations */
 p, q, li { line-height: 1.4em; }
-hr {
-	border-width: 0;
-	border-bottom: .18em dashed #0cf;
-	margin-top: 2em;
-	margin-bottom: 1em;
-}
+hr { border-width: 0; border-bottom: .18em dashed #0cf; margin-top: 2em; margin-bottom: 1em; }
 /* Inline Typography */
 i, em { font-style: italic; }
 b, strong { font-weight: bold; }
 /* remember to highlight inserts somehow! */
 ins { text-decoration: none; }
 del { text-decoration: line-through; }
-
 /* Quotes */
 blockquote, q { quotes: none; }
 q { border-left: .5em solid #ffc; padding-left: 1em; }
 blockquote:before, blockquote:after,
 q:before, q:after { content: ''; content: none; }
-
 /* Lists */
 ol, ul { list-style: disc; margin-left: 1.5em; }
-
 /* tables still need 'cellspacing="0"' in the markup */
 table { border-collapse: collapse; border-spacing: 0; }
-
 /* Code */
-pre {
-	overflow: scroll;
-}
-
+pre { overflow: scroll; }
 /* Cross-Tag Rules */
-p, ul, ol, dl, q {
-	margin-bottom: .8em;
-}
+p, ul, ol, dl, q { margin-bottom: .8em; }
 
 
 /* Objects
@@ -91,7 +66,6 @@ p, ul, ol, dl, q {
 .Wrapper { margin: 0 auto; padding: 0 5px; width: 950px; }
 .wrapper_first { margin-top: 1em; }
 .wrapper_inner { margin: 0; padding: 0 10px; width: auto; }
-
 /* Extentions */
 .fluid { padding: 0 2%; width: 96%; }
 
@@ -99,7 +73,6 @@ p, ul, ol, dl, q {
 /* Block
  * ----- */
 .Block { margin: 0 auto 1em; overflow: hidden; }
-
 /* Extentions */
 .narrowed { padding: 0 40px; }
 .cramped { padding: 0 80px; }
@@ -109,7 +82,6 @@ p, ul, ol, dl, q {
  * ---- */
 .Unit { float: left; }
 .UnitAlt { float: right; }
-
 /* Extentions */
 .w1of2 { width: 48.5%; margin-right: 3%; }
 .w1of3 { width: 30%; margin-right: 5%; }
