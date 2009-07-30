@@ -1,3 +1,13 @@
-Prismatic is a flexible and lightweight webdesign framework.
+h1. Read Me
 
-As of now, it is not ready for real world use.
+Prismatic is my personal web-design framework. I created it because I wanted to have a tool perfectly adapted to the way I work. Thus, it’s not a "for everyone" framework.
+
+h2. Getting Started
+
+Put this in your HTML file, in the <head> section:
+
+<pre>
+<link rel="stylesheet" href="prismatic/prismatic.css" type="text/css">
+</pre>
+
+Then... Well, you have to wait, I still haven't written any guide... :/
