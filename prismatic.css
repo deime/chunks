@@ -4,12 +4,7 @@ http://www.deime.net/prismatic
 (c) 2009, Jeremy Pinat. All rights reserved.
 */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
-blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
-font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,
-u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
-caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;
-font-weight:normal;margin:0;outline:0;padding:0;vertical-align:baseline;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;font-weight:normal;margin:0;outline:0;padding:0;vertical-align:baseline;}
 
 body{background:#fff;color:#222;font:Normal 1em Helvetica,Arial,sans-serif;line-height:1em;}
 /*:focus { outline: 0; }*/
@@ -52,8 +47,7 @@ p, ul, ol, dl, q { margin-bottom: .8em; }
 
 /* Area and global layout rules */
 .Area,.Wrapper,.Block,.clearfix{_zoom:1;}
-.Area:after,.Wrapper:after,.Block:after,.clearfix:after{
-clear:both;content:".";display:block;height:0;visibility:hidden;}
+.Area:after,.Wrapper:after,.Block:after,.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
 
 /* Wrapper */
 .Wrapper{margin:0 auto;padding:0 5px;width:950px;}
@@ -77,8 +71,7 @@ clear:both;content:".";display:block;height:0;visibility:hidden;}
 .by5x2{width:37%;margin-right:5%;}
 .by5x3{width:58%;margin-right:5%;}
 .by5x4{width:79%;margin-right:5%;}
-.return{float:none;_left:-3px;margin-left:0;margin-right:0;_margin-right:-3px;
-overflow:visible;_position:relative;width:auto;_zoom:1;}
+.return{float:none;_left:-3px;margin-left:0;margin-right:0;_margin-right:-3px;overflow:visible;_position:relative;width:auto;_zoom:1;}
 .then_blow{float:right;}
 .Divide.alone{margin-right:5%;}/*lacks margin-bottom*/
 .Divide.then_blow.alone{margin-left:5%;}/*lacks margin-bottom*/
