@@ -57,13 +57,13 @@ p, ul, ol, dl, q { margin-bottom: .8em; }
 	.wrapper_inner { margin: 0; padding: 0 10px; width: auto; }
 
 /* Block */
-.Block{margin:0 auto 1em;overflow:visible;}
+.Block{margin:0 auto 1em;}
 /* Extentions (probably have to be moved) */
 .narrowed{padding:0 40px;}
 .cramped{padding:0 80px;}
 
 /* Divide */
-.Divide{float:left;overflow:visible;_zoom:1;}
+.Divide{float:left;_zoom:1;}
 .by2{width:48.5%;margin-right:3%;}
 .by3{width:30%;margin-right:5%;}
 .by3x2{width:65%;margin-right:5%;}
