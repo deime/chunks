@@ -69,29 +69,9 @@ ins{text-decoration:none;}del{text-decoration:line-through;}/*Define styles*/
 .rounder { margin: 0 2px; }
 
 
-/* Button
- * ------ */
-.Button { background: transparent url('images/button.png') 0 0px no-repeat; cursor: pointer;
-	display: inline-block; color: #111; font-weight: normal; height: 23px;
-	margin-bottom: -1px; margin-right: 10px; text-decoration: none; .Button { _zoom: 1; } }
-.Button:hover { background-color: transparent; color: #111; margin: 0; margin-bottom: -1px;
-	margin-right: 10px; padding: 0; }
-.Button span {
-	background: transparent url('images/button.png') 100% -23px no-repeat; display: inline-block;
-	font-weight: bold; height: 23px; margin-bottom: -1px;
-	margin-left: 10px; margin-right: -10px; padding-right: 10px; }
+/*Button(to redo)*/.Button{background:transparent url('images/button.png')0 0px no-repeat;cursor:pointer;display:inline-block;color:#111;font-weight:normal;height:23px;margin-bottom:-1px;margin-right:10px;text-decoration:none;_zoom:1;}.Button:hover{background-color:transparent;color:#111;margin:0;margin-bottom:-1px;margin-right:10px;padding:0;}.Button span{background:transparent url('images/button.png')100%-23px no-repeat;display:inline-block;font-weight:bold;height:23px;margin-bottom:-1px;margin-left:10px;margin-right:-10px;padding-right:10px;}
 
-/* Bubble
- * ------ */
-.Speech {
-	background-color: #ffc; border: 1px solid #e9e900;
-	border-left-width: 0; border-right-width: 0;
-	margin: 0 1px; overflow: visible; position: relative; }
-.speech_arrow_tl { background-image: url('images/arrow_up.png'); height: 8px; left: 40px;
-	margin-top: -8px; position: absolute; width: 16px; }
-.speech_content {
-	border: 1px solid #e9e900; border-bottom-width: 0;
-	border-top-width: 0; margin: 0 -1px; padding: .2em .5em; }
+/*Bubble(to redo)*/.Speech{background-color:#ffc;border:1px solid#e9e900;border-left-width:0;border-right-width:0;margin:0 1px;overflow:visible;position:relative;}.speech_arrow_tl{background-image:url(images/arrow_up.png);height:8px;left:40px;margin-top:-8px;position:absolute;width:16px;}.speech_content{border:1px solid#e9e900;border-bottom-width:0;border-top-width:0;margin:0-1px;padding:.2em.5em;}
 
 
 /* GENERIC RULES */
