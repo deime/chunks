@@ -1,10 +1,10 @@
-h1. Read Me
+h1. Prismatic Framework
 
 Prismatic is my personal web-design framework. I created it because I wanted to have a tool perfectly adapted to the way I work. Thus, it’s not a "for everyone" framework.
 
 h2. Getting Started
 
-Put this in your HTML file, in the <head> section:
+Put this in your HTML file, in the <code><head></code> section:
 
 <pre>
 <link rel="stylesheet" href="prismatic/prismatic.css" type="text/css">
