@@ -6,7 +6,7 @@ http://www.deime.net/prismatic
 /* DEFAULT BEHAVIORS */
 address,blockquote,body,caption,code,dd,del,div,dl,dt,fieldset,form,html,h1,h2,h3,h4,h5,h6,iframe,img,input,ins,legend,li,object,ol,p,pre,table,tbody,td,textarea,tfoot,th,thead,tr,ul{line-height:1.4em;margin:0;padding:0;}
 
-body, legend{background:#fff;color:#222;font:normal 1em "Trebuchet MS",sans-serif;line-height:1em;}
+body,legend{background:#fff;color:#222;font:normal 1em "Trebuchet MS",sans-serif;line-height:1em;}
 h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}h2{color:#262626;font-size:1.8em;}h3{color:#4C4C4C;font-size:1.3em;}h4{color:#737373;font-size:1.1em;}h5{color:#999;font-size:1.0em;}h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
 hr{border-width:0;border-bottom:.18em dashed #0cf;margin-top:2em;margin-bottom:1em;}
 a{color:#0c9;font-weight:bold;text-decoration:none;}a:hover{color:#000;}/*Change the hover color*/
