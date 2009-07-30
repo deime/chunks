@@ -1,46 +1,29 @@
 /*
-DEIME Prismatic
-http://www.deime.net/prismatic
 (c) 2009, Jeremy Pinat. All rights reserved.
+http://www.deime.net/prismatic
 */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;font-weight:normal;margin:0;outline:0;padding:0;vertical-align:baseline;}
+/* DEFAULT BEHAVIORS */
+address,blockquote,body,caption,code,dd,del,div,dl,dt,fieldset,form,html,h1,h2,h3,h4,h5,h6,iframe,img,input,ins,legend,li,object,ol,p,pre,table,tbody,td,textarea,tfoot,th,thead,tr,ul{line-height:1.4em;margin:0;padding:0;}
 
-body{background:#fff;color:#222;font:Normal 1em Helvetica,Arial,sans-serif;line-height:1em;}
-/*:focus { outline: 0; }*/
-/* Links */
-a{color:#0c9;font-weight:bold;text-decoration:none;}
-a:hover{color:#000;}
-/* Headings */
-h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}
-h2{color:#262626;font-size:1.8em;}
-h3{color:#4C4C4C;font-size:1.3em;}
-h4{color:#737373;font-size:1.1em;}
-h5{color:#999;font-size:1.0em;}
-h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}
-h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
-/* Paragraphs, Breaks, Separations */
-p,q,li{line-height:1.4em;}
+body, legend{background:#fff;color:#222;font:normal 1em "Trebuchet MS",sans-serif;line-height:1em;}
+h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}h2{color:#262626;font-size:1.8em;}h3{color:#4C4C4C;font-size:1.3em;}h4{color:#737373;font-size:1.1em;}h5{color:#999;font-size:1.0em;}h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
 hr{border-width:0;border-bottom:.18em dashed #0cf;margin-top:2em;margin-bottom:1em;}
-/* Inline Typography */
-i,em{font-style:italic;}
-b,strong{font-weight:bold;}
-/* remember to highlight inserts somehow! */
-ins{text-decoration:none;}
-del{text-decoration:line-through;}
-/* Quotes */
-blockquote, q { quotes: none; }
-q { border-left: .5em solid #ffc; padding-left: 1em; }
-blockquote:before, blockquote:after,
-q:before, q:after { content: ''; content: none; }
-/* Lists */
-ol, ul { list-style: disc; margin-left: 1.5em; }
-/* tables still need 'cellspacing="0"' in the markup */
-table { border-collapse: collapse; border-spacing: 0; }
-/* Code */
-pre { overflow: scroll; }
-/* Cross-Tag Rules */
-p, ul, ol, dl, q { margin-bottom: .8em; }
+a{color:#0c9;font-weight:bold;text-decoration:none;}a:hover{color:#000;}/*Change the hover color*/
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}/*Define styles for this*/
+button,input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;}
+code,kbd,pre,samp,tt{font-family:monospace;font-size:1em;line-height:1em;}
+pre{overflow:scroll;}
+table{border-collapse:collapse;border-spacing:0;}
+blockquote,dl,ol,p,q,ul{margin-bottom:.8em;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+blockquote,q{quotes:none;}/*Is it possible to delete this line?*/
+q { border-left: .5em solid #ffc; padding-left: 1em; }/*Rework on this*/
+blockquote:before,blockquote:after,q:before,q:after{content:'';}/*Is it possible to delete the blockquote selector?*/
+ol,ul{margin-left:1.5em;}/*Is it possible to remove this, and let the default margins ?*/
+ins{text-decoration:none;}del{text-decoration:line-through;}/*Define styles*/
 
 
 /* LAYOUT SYSTEM */
