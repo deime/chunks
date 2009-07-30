@@ -2,7 +2,9 @@ h1. Prismatic Framework
 
 Prismatic is my personal web-design framework. I created it because I wanted to have a tool perfectly adapted to the way I work. Thus, it’s not a "for everyone" framework.
 
-h2. Getting Started
+h2. Get started
+
+Download the files.
 
 Put this in your HTML file, in the <code><head></code> section:
 
@@ -10,4 +12,83 @@ Put this in your HTML file, in the <code><head></code> section:
 <link rel="stylesheet" href="prismatic/prismatic.css" type="text/css">
 </pre>
 
-Then... Well, you have to wait, I still haven't written any guide... :/
+Then change the location of <code>prismatic.css</code> as needed.
+
+You're ready.
+
+
+h2. Learn the basics
+
+The first thing you want to do is adding a <code><div></code> tag with the <code>Wrapper</code> class.
+
+<pre>
+<body>
+	<div class="Wrapper">
+	</div>
+</body>
+</pre>
+
+A _Wrapper_ is 950 pixels width by default. You can make it fluid by adding <code>fluid</code> in the class attribute (<code>class="Wrapper fluid"</code>) or change its width by defining your own _Wrapper extention_ (we will go through this later).
+
+We can now add a <code>div</code> with the <code>Block</code> class.
+
+<pre>
+<body>
+	<div class="Wrapper">
+		<div class="Block">
+			This is a block
+		</div>
+	</div>
+</body>
+</pre>
+
+A _Block_ is a chunk of data. You can move or nest them as needed. They are like legos you put together to build your page. Here, we use a <code>code</code> tag, but you can use a <code>p</code> tag, a <code>img</code> tag, or almost anything you want.
+
+Now that we know what is a _Block_, we can start to use them to organize our page:
+
+<pre>
+<body>
+	<div class="Wrapper">
+		<div id="header" class="Block">This is the header</div>
+		<div id="main" class="Block">This is where the maincontent goes</div>
+		<div id="sidebar" class="Block">This is the sidebar</div>
+		<div id="footer" class="Block">This is the footer</div>
+	</div>
+</body>
+</pre>
+
+But wait... If we display that in a browser, we have four lines of text, but nothing that seems to be a layout! That's where the <code>Divide</code> class comes:
+
+<pre>
+<body>
+	<div class="Wrapper">
+		<div id="header" class="Block">This is the header</div>
+		<div id="main" class="Block Divide by3x2">This is where the main content goes</div>
+		<div id="sidebar" class="Block Divide by3 return">This is the sidebar</div>
+		<div id="footer" class="Block">This is the footer</div>
+	</div>
+</body>
+</pre>
+
+<code>Block Divide by3x2</code> means "*Divide* the width of this *Bock* by *3*, then multiply it by *2*." Display the code in a browser. We now have a minimal, but real, sidebar on the right, and it width is 1/3 of the Wrapper width. The <code>return</code> class means that this Block is the last one on this line, and we should not add another Block without returning to the left first. Remember your _return_ key on your keyboard? It's the same.
+
+We could continue on this and talk about every division we can use, but let's move on:
+
+<pre>
+<body>
+	<div class="Wrapper">
+		<div id="header" class="Block">This is the header</div>
+		
+		<div id="content" class="Block nobottom">
+			<div id="main" class="Block Divide by3x2">This is where the main content goes</div>
+			<div id="sidebar" class="Block Divide by3 return">This is the sidebar</div>
+		</div>
+		
+		<div id="footer" class="Block">This is the footer</div>
+	</div>
+</body>
+</pre>
+
+We have nested Blocks! By default, Blocks have a margin-bottom applied to them. But sometimes we don't want that, especially when Blocks are nested: It adds too much space at the bottom. <code>nobottom</code> just removes this margin, and the Block becomes as invisible as any <code>div</code>, except that we can still Divide it, and it clears the floats correctly.
+
+That's all for this short introduction, and you should now be able to play and experiment with Prismatic. (Complete guide is coming soon)
