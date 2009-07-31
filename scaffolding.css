@@ -6,10 +6,14 @@ http://www.deime.net/prismatic
 /* Area and global layout rules */
 .Area, .Wrapper, .Block, .clear { border-bottom: 5px solid #99997F; }
 /* Wrapper */
-.Wrapper { background-color: #ddd; }
+.Wrapper { background-color: #ffc; }
 .wrapper_child {  }
 /* Block */
-.Block { background-color: #aaa; }
+.Block { background-color: #ddd; }
+.Block .Block { background-color: #bbb; }
+.Block .Block .Block { background-color: #999; }
+.Block .Block .Block .Block { background-color: #777; }
+.Block .Block .Block .Block .Block { background-color: #555; }
 /* Divide */
 .Divide {  }
 .by2 {  }
