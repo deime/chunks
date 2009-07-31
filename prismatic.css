@@ -13,7 +13,7 @@ a{color:#0c9;font-weight:bold;text-decoration:none;}a:hover{color:#000;}/*Change
 abbr,acronym{border:0;font-variant:normal;}/*???*/
 button,input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;}
 fieldset,img{border:0;}
-address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
 ins{text-decoration:none;}del{text-decoration:line-through;}/*Define styles*/
 blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
