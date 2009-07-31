@@ -5,22 +5,15 @@ http://www.deime.net/prismatic
 
 /* DEFAULT BEHAVIORS */
 address,blockquote,body,caption,code,dd,del,div,dl,dt,fieldset,form,html,h1,h2,h3,h4,h5,h6,iframe,img,input,ins,legend,li,object,p,pre,table,tbody,td,textarea,tfoot,th,thead,tr{line-height:1.4em;margin:0;padding:0;}
+ol,ul{margin-top:0;margin-bottom:0;}body,legend{background:#fff;color:#222;font:normal 1em "Trebuchet MS",sans-serif;line-height:1em;}h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}h2{color:#262626;font-size:1.8em;}h3{color:#4C4C4C;font-size:1.3em;}h4{color:#737373;font-size:1.1em;}h5{color:#999;font-size:1.0em;}h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}code,kbd,samp,tt{font-family:monaco,monospace;font-size:.75em;line-height:1em;}pre{background-color:#eee;overflow:auto;overflow-y:hidden;padding:1em;}table{border-collapse:collapse;border-spacing:0;}blockquote:before,blockquote:after,q:before,q:after{content:'';}blockquote,q{quotes:none;}
+q{font:italic 1em Georgia,serif;}blockquote{text-indent:2em;margin-left:2em;margin-right:2em;}
 
-ol,ul{margin-top:0;margin-bottom:0;}
-body,legend{background:#fff;color:#222;font:normal 1em "Trebuchet MS",sans-serif;line-height:1em;}
-h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}h2{color:#262626;font-size:1.8em;}h3{color:#4C4C4C;font-size:1.3em;}h4{color:#737373;font-size:1.1em;}h5{color:#999;font-size:1.0em;}h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
-hr{border-width:0;border-bottom:.18em dashed #0cf;margin-top:2em;margin-bottom:1em;}
+hr{border-width:0;border-bottom:.18em dashed #0cf;margin-top:2em;margin-bottom:1em;}/*???*/
 a{color:#0c9;font-weight:bold;text-decoration:none;}a:hover{color:#000;}/*Change the hover color*/
-abbr,acronym{border:0;font-variant:normal;}
-sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}/*Define styles for this*/
+abbr,acronym{border:0;font-variant:normal;}/*???*/
 button,input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;}
-code,kbd,pre,samp,tt{font-family:monospace;font-size:1em;line-height:1em;}
-pre{overflow-x:scroll;border:.5em solid#eee;padding:1em;}
-table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
-q{}blockquote{}/*Rework on this*/
-blockquote:before,blockquote:after,q:before,q:after{content:'';}blockquote,q{quotes:none;}
 ins{text-decoration:none;}del{text-decoration:line-through;}/*Define styles*/
 blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
@@ -43,7 +36,7 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
 .center{text-align:center;}.cramped{padding:0 80px;}.hidden{display:none;}.left{text-align:left;}.narrowed{padding:0 40px;}.nobottom{margin-bottom:0;}.right{text-align:right;}.top{margin-top:1em;}
 /* Writing Styles */
-.write_fancy{color:#999;font:italic 1em Georgia,serif;text-indent:2em;}
+.write_fancy{color:#999;font:italic 1em Georgia,serif;}
 .write_highlighted{background-color:#ffc;padding-left:2em;padding-right:2em;}
 .write_legal{font-size:.7em;line-height:1.1em;}
 
