@@ -26,6 +26,7 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
 
 /* LAYOUT SYSTEM */.Area,.Wrapper,.Block,.clearfix{_zoom:1;}.Area:after,.Wrapper:after,.Block:after,.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}.Wrapper{margin:0 auto;padding:0 5px;width:950px;}.fluid{padding:0 2%;width:96%;}.Wrapper>.inner{padding:0 10px;width:auto;}.Block{margin:0 auto 1em;}.Divide{float:left;_zoom:1;}.by2{width:48.5%;margin-right:3%;}.by3{width:30%;margin-right:5%;}.by3x2{width:65%;margin-right:5%;}.by5{width:16%;margin-right:5%;}.by5x2{width:37%;margin-right:5%;}.by5x3{width:58%;margin-right:5%;}.by5x4{width:79%;margin-right:5%;}.return{_left:-3px;margin-right:0;_margin-right:-3px;_position:relative;_zoom:1;}.then_blow{float:right;}.Divide.alone{margin-right:.7em;}.Divide.then_blow.alone{margin-left:.7em;}
+.Center{margin-left:auto;margin-right:auto;}
 
 /* OBJECTS */
 
