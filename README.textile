@@ -1,0 +1,30 @@
+p>. Last updated on Tuesday 11th, 2009.
+
+h1. Chunks
+
+Half a CSS Framework
+
+h2. Introduction
+
+[…]
+
+h2. Before we go…
+
+* Chunks is an opinionated tool and you might dislike it
+* Using Chunks requires some knowledge of HTML and CSS
+* Don't forget to read and accept the License Information at the bottom of this document
+* Mistakes, bugs… They are everywhere! If you find one in Chunks, please report it at http://github.com/deime/chunks/issues
+
+h2. Get started
+
+[…]
+
+h2. Contact information
+
+Jérémy Pinat
+http://www.deime.net/
+jeremypinat@deime.net
+
+h2. License
+
+View LICENSE.txt
