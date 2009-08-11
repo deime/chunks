@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Tests</title>
+	<link rel="stylesheet" href="src.css" type="text/css" />
+	
+	<style type="text/css">
+		.Wrapper { padding-left: 10px; padding-right: 10px; width: 750px; }
+		.by2 { background-color: #ccc; }
+		.by3, .by3x2 { background-color: #aaa; }
+		.by5, .by5x2, .by5x3, .by5x4 { background-color: #888; }
+		
+		#main { width: 596px;}
+		#sidebar { width: 134px; }
+	</style>
+</head>
+<body>
+	<div class="Wrapper">
+		<div id="header" class="Chunk">Header</div>
+		<div class="Chunk">
+			<div id="main" class="Chunk divide then_blow">Main</div>
+			<div id="sidebar" class="Chunk divide">Sidebar</div>
+		</div>
+		<div id="footer" class="Chunk">Footer</div>
+	</div>
+	
+	<div class="Wrapper">
+		
+		<div class="Chunk">
+			1/1
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by2">1/2</div>
+			<div class="Chunk divide by2 return">1/2</div>
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by3">1/3</div>
+			<div class="Chunk divide by3">1/3</div>
+			<div class="Chunk divide by3 return">1/3</div>
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by3x2">2/3</div>
+			<div class="Chunk divide by3 return">1/3</div>
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by5">1/5</div>
+			<div class="Chunk divide by5">1/5</div>
+			<div class="Chunk divide by5">1/5</div>
+			<div class="Chunk divide by5">1/5</div>
+			<div class="Chunk divide by5 return">1/5</div>
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by5">1/5</div>
+			<div class="Chunk divide by5x4 return">4/5</div>
+		</div>
+		
+		<div class="Chunk">
+			<div class="Chunk divide by5x2">2/5</div>
+			<div class="Chunk divide by5x3 return">3/5</div>
+		</div>
+		
+		
+		
+		<div class="Chunk">
+			<div class="Chunk">1/1</div>
+			
+			<div class="Chunk">
+				<div class="Chunk divide by5">1/5</div>
+				
+				<div class="Chunk divide by5x4 return">
+					<div class="Chunk">4/5</div>
+					
+					<div class="Chunk">
+						<div class="Chunk divide by3">1/3</div>
+						
+						<div class="Chunk divide by3x2 return">
+							<div class="Chunk">2/3</div>
+							
+							<div class="Chunk">
+								<div class="Chunk divide by5x2">2/5</div>
+
+								<div class="Chunk divide by5x3 return">
+									<div class="Chunk">3/5</div>
+
+									<div class="Chunk">
+										<div class="Chunk divide by2">1/2</div>
+
+										<div class="Chunk divide by2 return">1/2</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+</body>
+</html>
