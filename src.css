@@ -43,6 +43,7 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 	width: auto;
 } /* keep or not? */
 .Chunk {
+	display: block;
 	margin: 0 auto 1em;
 }
 .Chunk>.Chunk {
@@ -83,6 +84,8 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
 /* GENERIC RULES */
 
+.center { text-align: center; }
+img.center { display: block; margin-left: auto; margin-right: auto; }
 .cramped { padding: 0 80px; }
 .hidden { display: none; }
 .narrowed { padding: 0 40px; }
