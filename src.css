@@ -62,6 +62,9 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 .divide.by2 { width: 48.5%; margin-right: 3%; }
 .divide.by3 { width: 30%; margin-right: 5%; }
 .divide.by3x2 { width: 65%; margin-right: 5%; }
+.divide.by4 { width: 21.25%; margin-right: 5%; }
+.divide.by4x2 { width: 47.5%; margin-right: 5%; }
+.divide.by4x3 { width: 73.75%; margin-right: 5%; }
 .divide.by5 { width: 16%; margin-right: 5%; }
 .divide.by5x2 { width: 37%; margin-right: 5%; }
 .divide.by5x3 { width: 58%; margin-right: 5%; }
