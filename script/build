@@ -7,7 +7,7 @@ file = File.open("src.css")
 $code = ""
 
 def conc(line)
-  line.gsub!( / *(\{|\}|;|:|\+|,|\.) */) { $&.gsub " ", "" }
+  line.gsub!( / *(\{|\}|;|:|\+|,) */) { $&.gsub " ", "" }
   line.gsub!( ";}", "}" )
   
   line.gsub!( "\t", "" )

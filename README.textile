@@ -1,8 +1,6 @@
-p>. Last updated on Tuesday 11th, 2009.
-
 h1. Chunks
 
-Half a CSS Framework
+CSS layout system in less than 2kb.
 
 h2. Introduction
 
