@@ -30,7 +30,6 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 	max-width: 950px;
 }
 .fluid {
-	padding: 0 2%;
 	width: 96%;
 }
 .Chunk {
@@ -51,7 +50,7 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 .divide + .divide {
 	margin-top: 0;
 }
-.divide.by2 { width: 48.5%; margin-right: 3%; }
+.divide.by2 { width: 47.5%; margin-right: 5%; }
 .divide.by3 { width: 30%; margin-right: 5%; }
 .divide.by3x2 { width: 65%; margin-right: 5%; }
 .divide.by4 { width: 21.25%; margin-right: 5%; }
