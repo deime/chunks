@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Ok, this is very ugly, but it works...
 
 file = File.open("src.css")
