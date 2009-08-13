@@ -19,7 +19,7 @@ http://www.deime.net/chunks
 	_width: 950px;
 	max-width: 950px;
 }
-.fluid { width: 96%; }
+.fluid { max-width: 96%; _width: 96%; }
 
 /* Chunk */
 .Chunk { display: block; margin: 0 auto 1em; }
@@ -46,12 +46,11 @@ http://www.deime.net/chunks
 	_position: relative;
 	_zoom: 1;
 }
-.divide.then_blow { float: right; }
-.divide.then_center { float: none; margin-left: auto; margin-right: auto; }
+.then_blow { float: right; }
+.then_center { float: none; margin-left: auto; margin-right: auto; }
 
 /* GENERIC RULES */
 
-.center { text-align: center; }
 .cramped { padding: 0 80px; }
 .hidden { display: none; }
 .narrowed { padding: 0 40px; }
