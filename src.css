@@ -1,13 +1,24 @@
 /*
 (c) 2009, Jeremy Pinat. All rights reserved.
-http://www.deime.net/prismatic
+http://www.deime.net/chunks
 */
 
 /* SHY RESET */
 address,blockquote,body,caption,code,dd,del,div,dl,dt,fieldset,form,html,h1,h2,h3,h4,h5,h6,iframe,img,input,ins,legend,li,object,p,pre,table,tbody,td,textarea,tfoot,th,thead,tr{line-height:1.4em;margin:0;padding:0;}
-ol,ul{margin-top:0;margin-bottom:0;}body,legend{background:#fff;color:#222;}h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}h2{color:#262626;font-size:1.8em;}h3{color:#4C4C4C;font-size:1.3em;}h4{color:#737373;font-size:1.1em;}h5{color:#999;font-size:1.0em;}h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}code,kbd,samp,tt{font-family:monaco,monospace;font-size:.75em;line-height:1em;}pre{background-color:#eee;overflow:auto;overflow-y:hidden;padding:1em;}table{border-collapse:collapse;border-spacing:0;}blockquote:before,blockquote:after,q:before,q:after{content:'';}blockquote,q{quotes:none;}
 
-button,input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;}
+ol,ul{margin-top:0;margin-bottom:0;}
+body,legend{background:#fff;color:#222;}
+h1{color:#000;font-size:3.0em;letter-spacing:-.05em;}
+h2{color:#262626;font-size:1.8em;}
+h3{color:#4C4C4C;font-size:1.3em;}
+h4{color:#737373;font-size:1.1em;}
+h5{color:#999;font-size:1.0em;}
+h6{color:#BFBFBF;font-size:0.9em;letter-spacing:.1em;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:1em;margin-bottom:0.5em;}
+table{border-collapse:collapse;border-spacing:0;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';}
+blockquote,q{quotes:none;}
+
 fieldset,img{border:0;}
 blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 
