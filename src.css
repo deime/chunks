@@ -3,9 +3,7 @@
 http://www.deime.net/chunks
 */
 
-.Wrapper, .Chunk, .clearfix {
-	_zoom: 1;
-}
+.Wrapper, .Chunk, .clearfix { _zoom: 1; }
 .Wrapper:after, .Chunk:after, .clearfix:after {
 	clear: both;
 	content: ".";
@@ -21,30 +19,15 @@ http://www.deime.net/chunks
 	_width: 950px;
 	max-width: 950px;
 }
-.fluid {
-	width: 96%;
-}
+.fluid { width: 96%; }
 
 /* Chunk */
-.Chunk {
-	display: block;
-	margin: 0 auto 1em;
-}
-.Chunk>.Chunk {
-	margin-bottom: 0;
-}
-.Chunk + .Chunk {
-	margin-top: 1em;
-}
+.Chunk { display: block; margin: 0 auto 1em; }
+.Chunk>.Chunk { margin-bottom: 0; }
+.Chunk + .Chunk { margin-top: 1em; }
 
-.divide {
-	float: left;
-	margin-right: 5%;
-	_zoom: 1;
-}
-.divide + .divide {
-	margin-top: 0;
-}
+.divide { float: left; margin-right: 5%; _zoom: 1; }
+.divide + .divide { margin-top: 0; }
 
 .by2 { width: 47.5%; }
 .by3 { width: 30%; }
