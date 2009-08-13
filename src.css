@@ -33,10 +33,6 @@ blockquote,dl,ol,p,pre,q,ul{margin-bottom:.8em;}
 	padding: 0 2%;
 	width: 96%;
 }
-.Wrapper>.inner {
-	padding: 0 10px;
-	width: auto;
-} /* keep or not? */
 .Chunk {
 	display: block;
 	margin: 0 auto 1em;
