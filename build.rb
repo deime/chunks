@@ -15,6 +15,9 @@ end
 file.each {|line| conc line}
 
 $code.gsub!( /\/\*.*?\*\//, "" )
+$code.gsub!( "\n", "" )
+
+$code = "/* (c) 2009, Jeremy Pinat. */ " + $code
 
 file = File.open("chunks.css", "w")
 file.puts $code
