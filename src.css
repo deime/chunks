@@ -55,3 +55,4 @@ http://www.deime.net/chunks
 .hidden { display: none; }
 .narrowed { padding: 0 40px; }
 .nobottom { margin-bottom: 0; }
+.Chunk + .Chunk.nobottom { margin-top: 0em; }
