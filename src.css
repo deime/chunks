@@ -1,8 +1,17 @@
-/*
-(c) 2009, Jeremy Pinat. All rights reserved.
-http://www.deime.net/chunks
-*/
+/* ============================================================================
+ *
+ *                            CHUNKS LAYOUT SYSTEM
+ *                            --------------------
+ *
+ * (c) 2009, Jeremy Pinat. All rights reserved.
+ * http://www.deime.net/chunks
+ *
+============================================================================ */
 
+
+/*   CLEAR fix
+As you can see, .Wrapper and .Chunk handle the 'clear' issues
+automatically. Other elements can be fixed by adding the .clearfix rule. */
 .Wrapper, .Chunk, .clearfix { _zoom: 1; }
 .Wrapper:after, .Chunk:after, .clearfix:after {
 	clear: both;
@@ -12,13 +21,16 @@ http://www.deime.net/chunks
 	visibility: hidden;
 }
 
-/* Wrapper */
+/* Wrapper
+Using a wrapper is optionnal, however it might be better to use it and
+overwrite its properties for custom (fix or fluid) width. */
 .Wrapper {
 	margin: 1em auto 0;
 	padding: 0 5px;
 	_width: 950px;
 	max-width: 950px;
 }
+/* class="Wrapper fluid" and you're ready for fluid-layout pages. */
 .fluid { max-width: 96%; _width: 96%; }
 
 /* Chunk */
@@ -49,10 +61,12 @@ http://www.deime.net/chunks
 .then_blow { float: right; }
 .then_center { float: none; margin-left: auto; margin-right: auto; }
 
-/* GENERIC RULES */
-
+/* The following rules extend .Chunk */
 .cramped { padding: 0 80px; }
-.hidden { display: none; }
 .narrowed { padding: 0 40px; }
 .nobottom { margin-bottom: 0; }
-.Chunk + .Chunk.nobottom { margin-top: 0em; }
+.Chunk.nobottom + .Chunk { margin-top: 0em; }
+
+/* GENERIC RULES
+Yep, this one is still useful! */
+.hidden { display: none; }
