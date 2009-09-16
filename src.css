@@ -1,4 +1,4 @@
-/* ============================================================================
+/* ===========================================================================
  *
  *                            CHUNKS LAYOUT SYSTEM
  *                            --------------------
@@ -6,12 +6,12 @@
  * (c) 2009, Jeremy Pinat. All rights reserved.
  * http://www.deime.net/chunks
  *
-============================================================================ */
+=========================================================================== */
 
 
 /* CLEAR FIX
-As you can see, .Wrapper and .Chunk handle the 'clear' issues
-automatically. Other elements can be fixed by adding the .clearfix rule. */
+As you can see, .Wrapper and .Chunk handle the 'clear' issues automatically.
+Other elements can be fixed by adding the .clearfix rule. */
 .Wrapper, .Chunk, .clearfix { _zoom: 1; }
 .Wrapper:after, .Chunk:after, .clearfix:after {
 	clear: both;
@@ -41,16 +41,18 @@ You can user class="Chunk divide by3" to create a 1/3 width chunk. */
 .Chunk>.Chunk { margin-bottom: 0; }
 .Chunk + .Chunk { margin-top: 1em; }
 
-.divide { float: left; margin-right: 5%; _zoom: 1; }
+.divide { float: left; _zoom: 1; }
 .divide + .divide { margin-top: 0; }
 
-.by2 { width: 47.5%; }
-.by3 { width: 30%; }
+.by2, .by3, .by3x2, .by4, .by4x2, .by4x3,
+.by5, .by5x2, .by5x3, .by5x4 {  margin-right: 5%; }
+.by2   { width: 47.5%; }
+.by3   { width: 30%; }
 .by3x2 { width: 65%; }
-.by4 { width: 21.25%; }
+.by4   { width: 21.25%; }
 .by4x2 { width: 47.5%; }
 .by4x3 { width: 73.75%; }
-.by5 { width: 16%; }
+.by5   { width: 16%; }
 .by5x2 { width: 37%; }
 .by5x3 { width: 58%; }
 .by5x4 { width: 79%; }
@@ -61,11 +63,10 @@ You can user class="Chunk divide by3" to create a 1/3 width chunk. */
 	_position: relative;
 	_zoom: 1;
 }
-.then_blow { float: right; }
-.then_center { float: none; margin-left: auto; margin-right: auto; }
+.blow { float: right; }
+.then_center { float: none; margin: inherit auto; }
 
-/* The following rules extend .Chunk, however the can be used to any other
-element. */
+/* The following rules extend .Chunk, but they work on any block element */
 .cramped { padding: 0 80px; }
 .narrowed { padding: 0 40px; }
 .nobottom { margin-bottom: 0; }
