@@ -1,25 +1,16 @@
 h1. Chunks
 
-CSS layout system in less than 1kb.
+Chunks is a CSS layout system for those who don’t care about grids, CSS resets or fancy plug-ins. You can use it with any CSS framework, build on top of it, or just use it as it is with nothing else. Its size is very small (less than 1kb) and only embeds the minimum. There is no CSS reset nor plugins.
 
-h2. Introduction
+h2. "Get started":http://wiki.github.com/deime/chunks
 
-Chunks is a CSS layout system for those who don’t care about grids, CSS resets or fancy plug-ins. You can use it with any CSS framework, build on top of it, or just use it as it is with nothing else (Retro 90’ HTML document style guaranteed!).
-
-* Less than 1kb in size
-* No extras, no CSS reset
-* Only basic layout tools
-* Nothing else
-
-h2. Get started
-
-* "Get Started on this page":http://www.deime.net/chunks
+Everything you need to get started is on the "Chunks homepage":http://wiki.github.com/deime/chunks.
 
 h2. Contact information
 
 Jérémy Pinat
-http://www.deime.net/
-jeremypinat@gmail.com
+"http://www.deime.net/":http://www.deime.net/
+"jeremypinat@gmail.com":mailto:jeremypinat@gmail.com
 
 h2. License
 
