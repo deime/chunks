@@ -4,7 +4,7 @@
  *                            --------------------
  *
  * (c) 2009, Jeremy Pinat. All rights reserved.
- * http://www.deime.net/chunks
+ * http://wiki.github.com/deime/chunks
  *
 =========================================================================== */
 
@@ -41,22 +41,22 @@ You can user class="Chunk divide by3" to create a 1/3 width chunk. */
 .Chunk>.Chunk { margin-bottom: 0; }
 .Chunk + .Chunk { margin-top: 1em; }
 
-.divide { float: left; _zoom: 1; }
-.divide + .divide { margin-top: 0; }
+.divided { float: left; _zoom: 1; }
+.divided + .divided { margin-top: 0; }
 
-.by2, .by3, .by3x2, .by4, .by4x2, .by4x3,
-.by5, .by5x2, .by5x3, .by5x4 {  margin-right: 5%; }
-.by2   { width: 47.5%; }
-.by3   { width: 30%; }
-.by3x2 { width: 65%; }
-.by4   { width: 21.25%; }
-.by4x2 { width: 47.5%; }
-.by4x3 { width: 73.75%; }
-.by5   { width: 16%; }
-.by5x2 { width: 37%; }
-.by5x3 { width: 58%; }
-.by5x4 { width: 79%; }
-.divide.return {
+.by2, .by3, .by3.x2, .by4, .by4.x2, .by4.x3,
+.by5, .by5.x2, .by5.x3, .by5.x4 { margin-right: 5%; }
+.by2	{ width: 47.5%; }
+.by3	{ width: 30%; }
+.by3.x2	{ width: 65%; }
+.by4	{ width: 21.25%; }
+.by4.x2	{ width: 47.5%; }
+.by4.x3	{ width: 73.75%; }
+.by5	{ width: 16%; }
+.by5.x2	{ width: 37%; }
+.by5.x3	{ width: 58%; }
+.by5.x4	{ width: 79%; }
+.divided.return {
 	_left: -3px;
 	margin-right: 0;
 	_margin-right: -3px;
@@ -64,7 +64,7 @@ You can user class="Chunk divide by3" to create a 1/3 width chunk. */
 	_zoom: 1;
 }
 .blow { float: right; }
-.then_center { float: none; margin: inherit auto; }
+.midway { float: none; margin: inherit auto; }
 
 /* The following rules extend .Chunk, but they work on any block element */
 .cramped { padding: 0 80px; }
